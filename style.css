@@ -84,6 +84,29 @@ h2{
     display: flex;
     flex-direction: row;
 }
+
+.button_1 {
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    border-radius: 56.5px;
+    border-style: none;
+    box-shadow: 5px 5px 5px #007765;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.button_1:hover {
+    box-shadow: 5px 5px 1px gray;
+}
+
+.button_1:active {
+    box-shadow: none;
+    transform: translateY(5px) translateX(5px);
+}
+
 .Coin p{
     margin-top: 0;
     padding-left: 40px;
