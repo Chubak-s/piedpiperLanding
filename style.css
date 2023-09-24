@@ -168,3 +168,39 @@ footer {
     font-size: 18px;
 }
 
+@media screen and (min-width: 425px){
+    nav span{
+        font-size: 24px;
+    }
+    .description{
+        width: 70vw;
+    }
+    .description p{
+        font-size: 36px;
+    }
+    .Coin{
+        width: 70vw;
+    }
+    .PPC p{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 36px;
+        text-align: justify;
+    }
+    .cardsTeam{
+        width: 80vw;
+    }
+    .Name{
+        font-size: 18px;
+    }
+    .Role{
+        font-size: 18px;
+    }
+    .cardMember{
+        padding-bottom: 20px;
+    }
+    .footerSection p{
+        font-size: 24px;
+    }
+}
